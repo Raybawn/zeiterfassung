@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="p1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.zeiterfassung_atl.MainController">
+   <children>
+      <Label layoutX="13.0" layoutY="14.0" prefHeight="23.0" prefWidth="375.0" text="Kunde">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="kundenWahl" layoutX="13.0" layoutY="37.0" prefHeight="25.0" prefWidth="375.0" />
+      <Label layoutX="13.0" layoutY="77.0" prefHeight="23.0" prefWidth="375.0" text="Problem (oder Ticket #)">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtProblem" layoutX="13.0" layoutY="100.0" prefHeight="70.0" prefWidth="375.0" text=""/>
+      <Label layoutX="13.0" layoutY="183.0" prefHeight="23.0" prefWidth="375.0" text="Zeiterfassung">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="stopwatchButton" layoutX="14.0" layoutY="206.0" mnemonicParsing="false" onAction="#onPress" prefHeight="80.0" prefWidth="180.0" text="START/STOP">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="timeLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="206.0" layoutY="206.0" prefHeight="40.0" prefWidth="180.0" text="" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="206.0" layoutY="255.0" mnemonicParsing="false" onAction="#goToUebersicht" prefHeight="30.0" prefWidth="180.0" text="Übersicht">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
