@@ -1,6 +1,6 @@
 # zeiterfassung
 
-A simple time management tool as a project for studies for which about 16 hours were planned.
+A simple time management tool as a project for my studies in software engineering for which about 16 hours were planned.
 Written in **Java** with **JavaFX** for the graphical user interface.
 
 The program allows to record and assign problems to the respective customers. The time is stopped and rounded up to the next quarter of an hour.
